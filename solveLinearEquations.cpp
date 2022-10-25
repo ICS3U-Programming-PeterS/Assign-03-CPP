@@ -3,6 +3,8 @@
 // This program asks for the users age and tells you if you could
 // date their grandchild
 #include <iostream>
+#include <chrono>
+#include <thread>
 
 
 
@@ -88,7 +90,7 @@ int main() {
             system("clear");
 
             // display choices to the user
-            std::cout << "Choose from one of the following options:";
+            std::cout << "\nChoose from one of the following options:";
             std::cout << "\n \t [1]"
                       << " Solve for y -- y=mx+b \n \t "
                       << "[2] Solve for x -- x=(y-b)/m"
